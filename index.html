@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+    <head>
+        <title>Анкета</title>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=640, initial-scale=0.5, minimal-ui">
+         <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet"> 
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row justify-content-center">
+                <nav class="col-lg-4 col-md-4 col-sm-4 navigation justify-content-between">
+                    <a class="navigation__item" href="#personal">Личная информация</a>
+                    <a class="navigation__item" href="#experience">Опыт</a>
+                    <a class="navigation__item" href="#about">О Себе</a>
+                </nav>
+            </div>
+        </div>
+        <main class="main">
+            <div class="container justify-content-center">
+              <div class="row justify-content-center"> 
+                <h1 class="main__header"> Анкета</h1>
+              </div>  
+              <div class="row justify-content-center personal__img">
+                  <img alt="info" src="assets/icon1.png">
+              </div>
+              <div class="personal row justify-content-center" id="personal">
+                  <h2 class="personal__header">Личная информация</h2>
+              </div>
+              <div class="row justify-content-center">   
+                  <form class="personal__form">
+                    <div class="row justify-content-center">
+                          <div class="form-group col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control" placeholder="ФИО">
+                          </div>
+                        </div>  
+                      <div class="row justify-content-center">
+                         <div class="form-group col-lg-5 col-md-5 col-sm-5">
+                            <select class="form-control" size="1">
+                              <option selected disabled="">Год рождения</option>
+                              <option value="1999">1999</option>
+                              <option value="1998">1998</option>
+                              <option value="1997">1997</option>
+                              <option value="1996">1996</option>
+                              <option value="1995">1995</option>
+                              <option value="1994">1994</option>
+                              <option value="1993">1993</option>
+                              <option value="1992">1992</option>
+                              <option value="1991">1991</option>
+                              <option value="1990">1990</option>
+                              <option value="1989">1989</option>
+                              <option value="1988">1988</option>
+                            </select>
+                          </div>
+                       </div>
+                        <div class="row justify-content-center">   
+                          <div class="form-group col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control" placeholder="Место проживания">
+                          </div>
+
+                          <div class="form-group col-lg-7 col-md-7 col-sm-7">
+                            <input type="text" class="form-control" placeholder="Skype">
+                          </div>
+
+                          <div class="form-group col-lg-7 col-md-7 col-sm-7 email__form">
+                            <input type="email" class="form-control" placeholder="Email">
+                          </div>
+                        </div>  
+                <div class="row justify-content-center about__img"> 
+                    <img alt="exp" src="assets/icon2.png">
+                </div>
+             
+                <div class="row justify-content-center" id="experience">
+                    <h2 class="exp__header">Расскажите о своем опыте</h2> 
+                </div>
+               </div>          
+                 <div class="row justify-content-between about">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                         <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">БЭМ/OOCSS</label>
+                      </div>
+                       <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+                        <label class="form-check-label" for="exampleCheck2">Stylus/LESS/SASS</label>
+                      </div>
+                       <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck3">
+                        <label class="form-check-label" for="exampleCheck3">Работаю с SVG</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                         <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck4">
+                        <label class="form-check-label" for="exampleCheck4">Верстаю семантично</label>
+                      </div>
+                       <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck5">
+                        <label class="form-check-label" for="exampleCheck5">ES2015/ES2016</label>
+                      </div>
+                       <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck6">
+                        <label class="form-check-label" for="exampleCheck6">Gulp/GRUNT</label>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                         <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck7">
+                        <label class="form-check-label" for="exampleCheck7">Webpack</label>
+                      </div>
+                       <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck8">
+                        <label class="form-check-label" for="exampleCheck8">jQuery</label>
+                      </div>
+                       <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck9">
+                        <label class="form-check-label" for="exampleCheck9">Ипользую Git</label>
+                      </div>
+                    </div>
+                </div>
+                <div class="container">
+                     <div class="row justify-content-center tell__img"><img alt="tell" src="assets/icon3.png"> 
+                     </div>   
+                     <div class="row justify-content-center" id="about">
+                        <h2 class="tell__header">Расскажите о себе</h2>  
+                     </div>      
+                     <div class="row justify-content-center"> 
+                        <p class="tell__text">Напишите несколько предложений, чем привлекла наша вакансия
+                        и что вы ожидаете от работы у нас.
+                        </p>
+                     </div>   
+                     <div class="row justify-content-center">
+                      <div class="form-group col-lg-6 col-md-6 col-sm-6 tell__textarea">
+                        <textarea placeholder="Понравилась тем, что..." class="form-control" rows="3"></textarea>
+                      </div>  
+                  </div>
+                    <div class="row justify-content-center">  
+                      <button type="submit" class="btn btn-primary">Готово</button>
+                     </div>   
+                </div>      
+                  </form>
+                </div> 
+            </div>
+        </main>
+
+
+        <script src="/js/jquery.min.js"></script>
+        <script src="/js/tether.min.js"></script>
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>
