@@ -82,6 +82,9 @@ select::-ms-expand {
   display: flex;
   align-items: center; }
 
+.form-check-input {
+  margin-top: 0; }
+
 .about {
   margin: 0 auto;
   width: 70%;
